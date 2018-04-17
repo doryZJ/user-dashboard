@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'dva';
 import { Table, Pagination, Popconfirm } from 'antd';
 import styles from './Users.css';
-import { PAGE_SIZE } from '../../components';
+import { PAGE_SIZE } from '../../constants';
 
 function Users({ list: dataSource, total, page: current }) {
   function deleteHandler(id) {

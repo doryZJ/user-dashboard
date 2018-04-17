@@ -11,8 +11,4 @@ function Users() {
   );
 }
 
-function mapStateToProps() {
-  return {};
-}
-
-export default connect(mapStateToProps)(Users);
+export default connect()(Users);
